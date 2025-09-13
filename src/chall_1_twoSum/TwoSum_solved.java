@@ -1,8 +1,8 @@
-package twoSum;
+package chall_1_twoSum;
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class TwoSum_solved {
     // sample: [2, 5, 11, 15] - target: 13
 
     // Complexity: O(n^2) because whe iterate twice so (N*N) and we use hash that is O(1)
