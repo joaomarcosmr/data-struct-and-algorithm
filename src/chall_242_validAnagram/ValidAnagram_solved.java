@@ -3,8 +3,8 @@ package chall_242_validAnagram;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class ValidAnagram {
-    // mine solution - 15ms
+public class ValidAnagram_solved {
+    // mine solution - 15ms o(n)
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
 

@@ -1,12 +1,11 @@
-import chall_219_containsDuplicateII.ContainsDuplicate_solved;
+import chall_9_palindromeNumber.PalindromeNumber_solved;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ContainsDuplicate_solved reverseWordsInAStringSolved = new ContainsDuplicate_solved();
-        int[] nums = {1, 2, 3, 1, 2, 3};
+        PalindromeNumber_solved reverseWordsInAStringSolved = new PalindromeNumber_solved();
 
-        reverseWordsInAStringSolved.containsNearbyDuplicate(nums, 2);
+        reverseWordsInAStringSolved.isPalindrome(121);
     }
 }
