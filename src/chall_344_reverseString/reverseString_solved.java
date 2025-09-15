@@ -1,6 +1,6 @@
 package chall_344_reverseString;
 
-public class reverseString {
+public class reverseString_solved {
     public void reverseString(char[] s) {
         int size = s.length - 1;
 
