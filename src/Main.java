@@ -1,11 +1,12 @@
-import chall_557_reverseWordsInAStringIII.ReverseWordsInAString_solved;
+import chall_219_containsDuplicateII.ContainsDuplicate_solved;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ReverseWordsInAString_solved reverseWordsInAStringSolved = new ReverseWordsInAString_solved();
+        ContainsDuplicate_solved reverseWordsInAStringSolved = new ContainsDuplicate_solved();
+        int[] nums = {1, 2, 3, 1, 2, 3};
 
-        reverseWordsInAStringSolved.reverseWords("Let's take LeetCode contest");
+        reverseWordsInAStringSolved.containsNearbyDuplicate(nums, 2);
     }
 }
