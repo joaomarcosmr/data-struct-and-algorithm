@@ -3,7 +3,7 @@ package chall_14_longestCommonPrefix;
 
 import java.util.HashMap;
 
-public class LongestCommonPrefix {
+public class LongestCommonPrefix_solved {
 
     // mine solution - 5ms - o(n*m)
     public String longestCommonPrefix(String[] strs) {
