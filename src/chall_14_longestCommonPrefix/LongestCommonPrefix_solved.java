@@ -56,8 +56,6 @@ public class LongestCommonPrefix_solved {
         return stringBuilder.toString();
     }
 
-
-
     //faster one - 1ms - o(n*m^2)
     public String longestCommonPrefixBetter(String[] strs) {
         String lcp = strs[0];

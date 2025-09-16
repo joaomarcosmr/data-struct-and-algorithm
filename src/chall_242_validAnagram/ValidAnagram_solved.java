@@ -15,6 +15,7 @@ public class ValidAnagram_solved {
             hashMap.put(letter, hashMap.getOrDefault(letter, 0) + 1);
         }
 
+
         for(char letter : t.toCharArray()){
             if(hashMap.containsKey(letter) && hashMap.get(letter) > 0){
                 hashMap.put(letter, hashMap.get(letter) - 1);
