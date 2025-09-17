@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.Queue;
+
 import chall_3_longestSubstringWithoutRepeatCharacter.Solution_solved;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
