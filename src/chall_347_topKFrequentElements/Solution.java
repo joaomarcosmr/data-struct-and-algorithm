@@ -1,8 +1,6 @@
 package chall_347_topKFrequentElements;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Solution {
     public int[] topKFrequent(int[] nums, int k) {
@@ -21,7 +19,6 @@ public class Solution {
                 left = right;
             }
         }
-
 
         return resolve;
     };
